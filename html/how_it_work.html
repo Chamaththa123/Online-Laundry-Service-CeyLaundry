@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="../css/hf.css" type="text/css" rel="stylesheet">
+  <link href="../css/works.css" type="text/css" rel="stylesheet">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="../css/footer.css" type="text/css" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+
+    }
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: white;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+
+    /* Container around content */
+    .container66 {
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+
+    }
+
+    /* The circles on the timeline */
+    .container66::after {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      right: -17px;
+      background-color: white;
+      border: 4px solid #FF9F55;
+      top: 15px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    /* Place the container to the left */
+    .left {
+      left: 0;
+    }
+
+    /* Place the container to the right */
+    .right {
+      left: 50%;
+    }
+
+    /* Add arrows to the left container (pointing right) */
+    .left::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      right: 30px;
+      border: medium solid white;
+      border-width: 10px 0 10px 10px;
+      border-color: transparent transparent transparent white;
+    }
+
+    /* Add arrows to the right container (pointing left) */
+    .right::before {
+      content: " ";
+      height: 0;
+      position: absolute;
+      top: 22px;
+      width: 0;
+      z-index: 1;
+      left: 30px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+
+    /* Fix the circle for containers on the right side */
+    .right::after {
+      left: -16px;
+    }
+
+    /* The actual content */
+    .content {
+      padding: 20px 30px;
+      background-color: white;
+      position: relative;
+      border-radius: 6px;
+      box-shadow: 12px 12px 32px rgba(108, 141, 196, 0.25), -10px -10px 15px rgba(255, 255, 255, 0.137), inset -15px -15px 20px rgb(246, 246, 248), inset 8px 8px 30px rgb(232, 236, 243);
+    }
+
+    /* Media queries - Responsive timeline on screens less than 600px wide */
+    @media screen and (max-width: 600px) {
+
+      /* Place the timelime to the left */
+      .timeline::after {
+        left: 31px;
+      }
+
+      /* Full-width containers */
+      .container66 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+      }
+
+      /* Make sure that all arrows are pointing leftwards */
+      .container66::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+      }
+
+      /* Make sure all circles are at the same spot */
+      .left::after,
+      .right::after {
+        left: 15px;
+      }
+
+      /* Make all right containers behave like the left ones */
+      .right {
+        left: 0%;
+      }
+    }
+
+    .card {
+      box-shadow: 4px 4px 10px rgba(126, 138, 158, 0.548), -10px -10px 15px rgba(255, 255, 255, 0.664), inset -15px -15px 20px rgb(54, 130, 252), inset 8px 8px 30px rgb(54, 130, 252);
+      transition: 0.2s;
+      width: 80%;
+      height: 240px;
+      background-color: #1075fa;
+      border-radius: 18px;
+      color: whitesmoke;
+      font-size: 16px;
+    }
+
+    .card:hover {
+
+      width: 90%;
+      height: 250px;
+    }
+
+    .container {
+      padding: 2px 16px;
+    }
+
+    .column2 {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 280px;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="header">
+
+      <img src="../images/logo.png" class="logo">
+      <center>
+        <p class="hello">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;
+          &nbsp;&nbsp;<i class="	fas fa-certificate"></i>&nbsp; Say Hi to the Ceylaundry it's time to enjoy free laundry
+          ! </p>
+      </center>
+      <a href="#"><img src="../images/basket.png" class="basket"></a>
+      <a href="#"><img src="../images/avatar.png" class="user"></a>
+
+    </div>
+    <div class="navbar">
+      <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a class="active" href="how_it_work.html"><i class="far fa-arrow-alt-circle-right"></i> How It Works</a>
+      <a href="#"><i class="		fas fa-cart-plus"></i> Order Now</a>
+      <a href="../php/contactUs.php"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+      <a href="#"><i class="fas fa-users"></i> About Us</a>
+      <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+      <a href="#"><i class="	far fa-user-circle"></i> signup</a>
+
+      <div class="search">
+        fghfhfd
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="howit_poto">
+      <img src="../images/howit.jpg" alt="Norway" style="width:100%;height:400px;">
+      <div class="text-block">
+        <h1 style="font-size: 50px;"><i>How It Works</i></h1>
+      </div>
+    </div>
+    <!---------------------------------------------------------------------------->
+    <div style="height: 300px;">
+      <br><br><br>
+      <img src="../images/smartphone.png"
+        style="float:left;width:110px;height:auto;padding-right: 10px;margin-left: 146px;"
+        title="shopping basket icons">
+      <img src="../images/shopping-basket.png"
+        style="float:left;width:110px;height:auto;padding-right: 10px;margin-left: 200px" title="shopping basket icons">
+      <img src="../images/laundry-ma.png"
+        style="float:left;width:110px;height:auto;padding-right: 10px;margin-left: 200px" title="shopping basket icons">
+      <img src="../images/fast-delivery.png" style="width:118px;height:auto;padding-right: 10px;margin-left: 200px"
+        title="shopping basket icons">
+      <p></p>
+      <p style="margin-left: 125px;color: #0e376d;font-weight: 700;font-size: 26px;">YOU ORDER
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        WE COLLECT
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WE CLEAN
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WE DELIVER</WE>
+      <p style="margin-left: 86px;color: #0e376d;float: left;margin-top: -20px;">Book a laundry collection using
+        our<br>&nbsp;&nbsp; Mobile App or through Website.</p>
+      <p style="color: #0e376d;margin-top: -20px;float: left;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our Agent will come to your door step<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to collect your Items. (Free pick-up)</p>
+      <p style="color: #0e376d;margin-top: -20px;float: left;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We take dirt very seriously. Your Clothes<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;receive our
+        expert treatment.</p>
+      <p style="color: #0e376d;margin-top: -20px;float: left;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hey pal, open up! Your clothes are<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delivered on time and as fresh as daisy.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Didn't we tell you laundry is so easy with<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CeyLaundry?
+        (Free Delivery)
+      </p>
+    </div>
+    <!------------------------------------------------------------------------------------------>
+    <br>
+
+    <div style="margin-top: 140px;">
+      <center>
+        <p style="color: #0e376d;font-size: 30px ;font-weight: 400;">Your clothing deserves the best - that 's why we
+          only work <br>with the best experienced
+          work force and state of the art <br>machinery to ensure your
+          laundry is cared to the highest<br> standard possible.</p>
+        <p style="font-size: 15px;color: #0e376d;">Our team has a background in setting up norms in modern day industry,
+          so to say we are pretty particular about our process is an <br>understatement. We work with each new team
+          member for weeks to ensure
+          they meet all of our criteria (from washing and drying <br>procedures to how they fold).</p>
+      </center>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+    <h1 style="font-family: Cambria;font-size: 40px;"><i> Laundry Process...</i></h1>
+
+    <br><br>
+
+    <div class="row">
+
+      <div class="column2">
+        <center>
+          <div class="card">
+            <div class="container">
+              <h2 style="float:left;color: white">01.</h2>
+              <br><br><br><br>
+              <center><img src="../images/label.png" alt="tag" width="80px" height="auto"></center>
+              <p style="font-family: Cambria;font-size: 17px;">Garments are tagged to avoid any lose of garment</p>
+            </div>
+          </div>
+        </center>
+
+      </div>
+
+      <div class="column2">
+        <center>
+          <div class="card">
+
+            <div class="container">
+              <h2 style="float:left;color: white">02.</h2>
+              <br><br><br>
+              <center><img src="../images/inkb.png" alt="tag" width="100px" height="auto"></center>
+              <p style="font-family: Cambria;font-size: 17px;">Garments are sorted by fabric, stain or colour</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="column2">
+        <center>
+          <div class="card">
+            <div class="container">
+              <h2 style="float:left;color: white">03.</h2>
+              <br><br><br><br>
+              <center><img src="../images/paint.png" alt="tag" width="80px" height="auto"></center>
+              <p style="font-family: Cambria;font-size: 17px;">Some garments undergo pre-wash treatment for tough stains
+              </p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="column2">
+        <center>
+          <div class="card">
+            <div class="container">
+              <h2 style="float:left;color: white">04.</h2>
+              <br><br><br><br>
+              <center><img src="../images/washingmm.png" alt="tag" width="80px" height="auto"></center>
+              <p style="font-family: Cambria;font-size: 17px;">Garments are washed with water & special detergents</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="column2">
+        <center>
+          <div class="card">
+            <div class="container">
+              <h2 style="float:left;color: white">05.</h2>
+              <br><br><br><br>
+              <center><img src="../images/ironing.png" alt="tag" width="80px" height="auto"></center>
+              <p style="font-family: Cambria;font-size: 17px;">Garments are pressed usually with an industrial press
+                carefully. In some cases, even hand presssed</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="column2">
+        <center>
+          <div class="card">
+            <div class="container">
+              <h2 style="float:left;color: white;">06.</h2>
+              <br><br><br><br>
+              <center><img src="../images/wardrobe.png" alt="tag" width="80px" height="auto"></center>
+              <p style="font-family: Cambria;font-size: 17px;">Clean Garments are packed/hang and as good as new!</p>
+            </div>
+          </div>
+        </center>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <!----------------------------------------------------------------------------------->
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer class="footer">
+    <div class="container bottom_border">
+      <div class="row3">
+
+        <div class="column3">
+
+          <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+            <h4 class="headin5_amrc col_white_amrc pt2" style="text-indent: 63px;">Find us</h4>
+
+
+            <p><i class="fa fa-location-arrow" style="text-indent: 63px;"></i> A/627,Maththamagoda,</p>
+            <p style="text-indent: 63px;">Kotiyakumbura</p>
+            <p><i class="fa fa-phone" style="text-indent: 63px;"></i> 035-2288357 </p>
+            <p><i class="fa fa fa-envelope" style="text-indent: 63px;"></i> info@Ceylaundry.lk </p>
+          </div>
+        </div>
+
+        <div class="column3">
+          <div class=" col-sm-4 col-md  col-6 col">
+            <h5 class="headin5_amrc col_white_amrc pt2"></h5>
+
+            <ul class="footer_ul_amrc">
+              <li>
+                <p style="text-indent: 55px;"><a href="*"><img src="../images/google-play-badge.png"
+                      style="width:auto ;height:29px;"></a></p>
+              </li>
+              <li>
+                <p style="text-indent: 55px;"><a href="*"><img src="../images/apple-store.png"
+                      style="width:100px ;height:29px;"></a></p>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+        <div class="column3">
+
+          <h4 class="headin5_amrc col_white_amrc pt2">Quick links</h4>
+
+          <ul class="footer_ul_amrc">
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privancy Policy</a></li>
+          </ul>
+
+
+        </div>
+
+        <div class="column3">
+          <div class=" col-sm-4 col-md  col-12 col">
+            <h4 class="headin5_amrc col_white_amrc pt2">Follow us</h4>
+
+            <ul class="footer_ul2_amrc">
+              <li><a href="#"><i class="fab fa-facebook-f fleft padding-right" style="color:#0074D9"></i> </a>
+                <p>https://www.facebook.com/ceylaundry</a></p>
+              </li>
+              <li><a href="#"><i class="fab fa-twitter fleft padding-right" style="color:#0074D9"></i> </a>
+                <p>https://www.twitter.com/ceylaundry</p>
+              </li>
+              <li><a href="#"><i class="fab fa-linkedin fleft padding-right" style="color:#0074D9"></i> </a>
+                <p>https://www.linkedin.com/ceylaundry</p>
+              </li>
+              <li><a href="#"><i class="fab fa-instagram fleft padding-right" style="color:#0074D9"></i> </a>
+                <p>https://www.instagram.com/ceylaundry</a></p>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <div class="container">
+        <ul class="foote_bottom_ul_amrc">
+          <li><a href="http://webenlance.com">Home</a></li>
+          <li><a href="http://webenlance.com">How It Works</a></li>
+          <li><a href="http://webenlance.com">Order Now</a></li>
+          <li><a href="http://webenlance.com">Contact Us</a></li>
+          <li><a href="http://webenlance.com">About Us</a></li>
+        </ul>
+
+        <center><img src="../images/cards.png" style="width:auto ;height:25px;"></center>
+
+
+        <center>
+          <p class="text-center">Copyright @2022 | Designed With by <a href="#"
+              style="color:#0074D9 ; text-decoration:none;">Ceylaundry</a></p>
+        </center>
+
+      </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+.header {
+  margin: auto;
+  height: 58px;
+  background-color: rgb(255, 255, 255);
+  font-family: Cambria;
+}
+
+.logo {
+  padding-left: 5px;
+  height: 53px;
+  width: auto;
+  float: left;
+}
+
+.hello {
+  float: left;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.image {
+  background-position: -43px 0;
+  width: 24px;
+  height: 23px;
+  display: block;
+  text-indent: -999px;
+  overflow: hidden;
+}
+
+.basket {
+  top: 0.01%;
+  left: 92.5%;
+  width: 46px;
+  float: right;
+  position: absolute;
+  margin-top: 5px;
+}
+
+.user {
+  left: 96.5%;
+  top: 11px;
+  position: absolute;
+  width: 35px;
+  height: auto;
+  float: right;
+  opacity: 100%;
+  margin-top: 5px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #0074d9;
+  overflow: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #0d0ba0;
+}
+
+.active {
+  background-color: #0074d9;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/*search bar*/
+.search input[type="text"] {
+  border-radius: 25px;
+  border: none;
+}
+
+.search {
+  float: right;
+  margin: 7px;
+}
+
+.search button {
+  background-color: #0074d9;
+  color: #f2f2f2;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 65px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(36, 88, 155, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/scoll1.jpg");
+
+  /* Set a specific height */
+  height: 90%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.video {
+  margin: auto;
+  height: 350px;
+  background-color: #0074d9;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 230px;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

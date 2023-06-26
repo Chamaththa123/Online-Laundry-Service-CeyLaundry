@@ -33,40 +33,10 @@
 </head>
 
 <body>
-    <div class="header">
-      
-        <img src = "../images/logo.png" class = "logo" >
-        <center><p class="hello">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;
-          &nbsp;&nbsp;<i class="	fas fa-certificate"></i>&nbsp; Say Hi to the Ceylaundry it’s time to enjoy free laundry ! </p></center>
-        <a href="#"><img src="../images/basket.png" class="basket"></a>
-        <a href="#"><img src="../images/avatar.png" class="user"></a>
-
-    </div>
-    <div class="navbar">
-      <a  href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
-      <a href="how_it_work.html"><i class="far fa-arrow-alt-circle-right"></i> How It Works</a>
-      <a href="../php/Tops.php"><i class="fas fa-cart-plus"></i> Order Now</a> 
-      <a href="../php/contactUs.php"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
-      <a href="#"><i class="fas fa-users"></i>   About Us</a>  
-      <a class="active" href="#"><i class="fa fa-fw fa-user"></i> Login</a>
-      <a href="#"><i class="	far fa-user-circle"></i> signup</a>
-
-      <div class="search">
-        <form action="#">
-            <input type="text" style="width:300px;height:29px;background-color:white"
-                placeholder=" Search your choice"
-                name="search">
-            <button>
-                <i class="fa fa-search"
-                    style="font-size: 18px;">
-                </i>
-            </button>
-        </form>
-    </div>
-    </div>
+<?php 
+    include ("header.php");
+  
+  ?>
     <hr>
 <!--------------------------------------------------->
 <div><br>
@@ -89,5 +59,9 @@
   </form>
 <br><br><br><br>
 </div></center>
+<?php 
+    include ("footer.php");
+  
+  ?>
 </body>
 </html>

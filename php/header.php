@@ -95,8 +95,8 @@
 
     </div>
     <div class="navbar">
-        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-        <a href="how_it_work.html"><i class="far fa-arrow-alt-circle-right"></i> How It Works</a>
+        <a href="../html/index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="../html/how_it_work.html"><i class="far fa-arrow-alt-circle-right"></i> How It Works</a>
         <a href="../php/Tops.php"><i class="fas fa-cart-plus"></i> Order Now</a>
         <a href="../php/contactUs.php"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
         <a href="#"><i class="fas fa-users"></i> About Us</a>

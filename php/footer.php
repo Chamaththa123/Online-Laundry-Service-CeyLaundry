@@ -98,6 +98,7 @@
                     <li><a href="http://webenlance.com">Order Now</a></li>
                     <li><a href="http://webenlance.com">Contact Us</a></li>
                     <li><a href="http://webenlance.com">About Us</a></li>
+                    <li><a href="../php/adminlogin.php">Employee</a></li>
                 </ul>
 
                 <center><img src="../images/cards.png" style="width:auto ;height:25px;"></center>

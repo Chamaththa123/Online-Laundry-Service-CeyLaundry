@@ -90,7 +90,7 @@
             &nbsp;&nbsp;<i class="	fas fa-certificate"></i>&nbsp; Say Hi to the Ceylaundry it's time to enjoy free
             laundry ! </p>
         </center>
-        <a href="#"><img src="../images/basket.png" class="basket"></a>
+        <a href="shopping_cart.php"><img src="../images/basket.png" class="basket"></a>
         <a href="userprofile.php"><img src="../images/avatar.png" class="user"></a>
 
     </div>
@@ -102,8 +102,8 @@
         <a href="aboutus.php"><i class="fas fa-users"></i> About Us</a>
         <a href="../php/loginpage.php"><i class="fa fa-fw fa-user"></i> Login</a>
         <a href="../php/uregister.php"><i class="	far fa-user-circle"></i> Signup</a>
-        <a style="margin-left: 250px;"><i class="fa fa-phone"
-                style="font-size:20px;color:rgb(255, 255, 255)"></i>&nbsp;&nbsp;&nbsp; <c style="font-size:18px;">011 -
+        <a style="margin-left: 305px;"><i class="fa fa-volume-control-phone"
+                style="font-size:20px;color:rgb(255, 255, 255)"></i>&nbsp;&nbsp; <c style="font-size:18px;">011 -
                 0252369</c></a>
 
     </div>

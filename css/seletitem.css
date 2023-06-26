@@ -1,0 +1,50 @@
+.card3 {
+
+  width: 421px;
+  height: 255px;
+  margin: 8px 3px 9px 16px;
+  /*font-family:time new roman;*/
+  background-color: white;
+  float: left;
+  font-size: 14.5px;
+  border-radius: 15px;
+  font-family: Cambria;
+  border-style: solid;
+
+}
+
+.price3 {
+  color: grey;
+  font-size: 18px;
+  padding-bottom: 105px"
+
+}
+
+div.scrollmenu {
+  background-color: #0074D9;
+  overflow: auto;
+  white-space: nowrap;
+  width: 88.8%;
+  align: center;
+  border-radius: 25px;
+  font-family: Cambria;
+  font-size: 17px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(9, 53, 141);
+}
+
+.total {
+  margin: auto;
+  height: 58px;
+  background-color: rgb(255, 255, 255);
+}

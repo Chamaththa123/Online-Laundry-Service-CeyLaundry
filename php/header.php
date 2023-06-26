@@ -99,7 +99,7 @@
         <a href="../html/how_it_work.html"><i class="far fa-arrow-alt-circle-right"></i> How It Works</a>
         <a href="../php/Tops.php"><i class="fas fa-cart-plus"></i> Order Now</a>
         <a href="../php/contactUs.php"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
-        <a href="#"><i class="fas fa-users"></i> About Us</a>
+        <a href="aboutus.php"><i class="fas fa-users"></i> About Us</a>
         <a href="../php/loginpage.php"><i class="fa fa-fw fa-user"></i> Login</a>
         <a href="../php/uregister.php"><i class="	far fa-user-circle"></i> Signup</a>
         <a style="margin-left: 250px;"><i class="fa fa-phone"

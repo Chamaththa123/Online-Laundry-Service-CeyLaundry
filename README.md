@@ -1,8 +1,8 @@
-# Online-Laundry-Service
+# Online Laundry Service
 
 The Online Laundry Service project is a web-based application developed using HTML, CSS, and PHP that aims to provide a convenient platform for users to schedule and manage their laundry services online. The website allows users to easily book laundry services, track their laundry status, and make online payments.
 
-Key Features:
+<h3>Key Features:</h3>
 
 1.User Registration and Authentication: Users can create an account on the website, providing their personal details and login credentials. Authentication mechanisms ensure secure access to user accounts.
 2.Service Selection: Users can browse through various laundry services offered and select the desired service.

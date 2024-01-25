@@ -23,8 +23,14 @@ The Online Laundry Service project is a web-based application developed using HT
    - Track and manage laundry orders effectively.</p>
 </ol>
 
-<ul>
-<li>sscsc</li><span>scscscscscscsc</span>
-</ul>
 ## Technologies Used
+
+<ul>
+<li>HTML: Used for structuring and presenting web pages.</li>
+<li>CSS: Utilized for styling and enhancing the visual appearance of the website.</li>
+<li>PHP: Handles server-side processing, manages user data, and interacts with the database.</li>
+<li>MySQL: Stores and retrieves data related to users, services, and orders.</li>
+<li>JavaScript: Enhances interactivity and improves the overall user experience.</li>
+
+</ul>
 The Online Laundry Service website aims to simplify the process of scheduling and managing laundry services, providing a user-friendly interface for customers and efficient management tools for the service provider.

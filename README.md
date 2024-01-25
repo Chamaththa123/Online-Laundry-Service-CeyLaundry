@@ -33,4 +33,5 @@ The Online Laundry Service project is a web-based application developed using HT
 <li>JavaScript: Enhances interactivity and improves the overall user experience.</li>
 
 </ul>
-The Online Laundry Service website aims to simplify the process of scheduling and managing laundry services, providing a user-friendly interface for customers and efficient management tools for the service provider.
+
+<p>The Online Laundry Service website aims to simplify the process of scheduling and managing laundry services, providing a user-friendly interface for customers and efficient management tools for the service provider.</p>

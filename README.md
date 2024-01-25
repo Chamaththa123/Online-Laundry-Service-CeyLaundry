@@ -9,10 +9,18 @@ The Online Laundry Service project is a web-based application developed using HT
 <p>- Users can create accounts with their personal details and login credentials.<br>
 - Secure authentication mechanisms ensure protected access to user accounts.</p>
 
-<li>User Registration and Authentication</li>
-<p>- Users can create accounts with their personal details and login credentials.<br>
-- Secure authentication mechanisms ensure protected access to user accounts.</p>
-<br>
+<li>Service Selection</li>
+<p>Users can browse through a variety of laundry services offered on the platform.<br>
+   - Easy selection of desired services for booking.</p>
+
+<li>Order Tracking</li>
+<p>Users can track the real-time status of their laundry orders.<br>
+   - Provides transparency and updates on the progress of their orders.</p>
+
+<li>Admin Dashboard</li>
+<p>An admin dashboard for service providers to efficiently manage user accounts.<br>
+   - Monitor and update service availability.<br>
+   - Track and manage laundry orders effectively.</p>
 </ol>
 
 1.User Registration and Authentication: Users can create an account on the website, providing their personal details and login credentials. Authentication mechanisms ensure secure access to user accounts.

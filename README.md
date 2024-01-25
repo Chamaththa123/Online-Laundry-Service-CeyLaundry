@@ -8,7 +8,7 @@ The Online Laundry Service project is a web-based application developed using HT
 <li>User Registration and Authentication</li>
 <p>- Users can create accounts with their personal details and login credentials.<br>
 - Secure authentication mechanisms ensure protected access to user accounts.</p>
-<br>
+
 <li>User Registration and Authentication</li>
 <p>- Users can create accounts with their personal details and login credentials.<br>
 - Secure authentication mechanisms ensure protected access to user accounts.</p>
